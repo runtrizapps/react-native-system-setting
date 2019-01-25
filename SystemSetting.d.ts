@@ -39,6 +39,7 @@ declare module 'react-native-system-setting' {
     public static switchBluetoothSilence: () => void;
     public static isAirplaneEnabled: () => Promise<boolean>;
     public static switchAirplane: () => void;
+    public static openAppSystemSettings: () => Promise<void>;
     public static addBluetoothListener: (
       callback: () => void
     ) => Promise<EmitterSubscription>;
